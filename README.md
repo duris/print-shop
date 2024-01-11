@@ -14,11 +14,9 @@ Features
 To get your shop up and running, follow these steps:
 Prerequisites
 
-```
-Node.js (LTS version)
-A Stripe account
-A Printify account
-```
+- Node.js (LTS version)
+- A Stripe account
+- A Printify account
 
 1. Clone the repository:
 
@@ -52,18 +50,19 @@ PRINTIFY_API_KEY=secret_printify_api_key_shhh
 npm run dev
 ```
 
-## Usage
+### Usage
 
 Provide instructions on how to use your shop, including how to add new products, process orders, and customize the layout.
 
-## Contributing
+### Contributing
 
 Contributions are what make the open-source community such a fantastic place to learn, inspire, and create. Any contributions you make are greatly appreciated.
 
-## License
+### License
 
 Distributed under the MIT License. See LICENSE for more information.
-Contact
+
+### Contact
 
 Ross Duris - @ross_duris
 
