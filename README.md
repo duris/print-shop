@@ -1,36 +1,75 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Canvas & Poster Shop
+
+Welcome to the Canvas & Poster Shop, the premier e-commerce solution for artists and photographers who want to share and monetize their art through high-quality prints. This platform leverages the robust features of Next.js, integrates with Stripe for secure payment processing, and connects with Printify for efficient, on-demand printing services.
+Features
+
+• Product Gallery: Showcase your art with a customizable gallery.
+• Stripe Integration: Process payments securely and reliably.
+• Printify Integration: Automate order printing and shipping with ease.
+• Responsive Design: Enjoy a seamless experience on any device.
+• Artist Dashboard: Manage products, orders, and payouts in one place.
 
 ## Getting Started
 
-First, run the development server:
+To get your shop up and running, follow these steps:
+Prerequisites
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+```
+Node.js (LTS version)
+A Stripe account
+A Printify account
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+1. Clone the repository:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+git clone https://github.com/your-username/canvas-poster-shop.git
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+```
 
-## Learn More
+2. Navigate to the project directory:
 
-To learn more about Next.js, take a look at the following resources:
+```
+cd canvas-poster-shop
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+3. Install dependencies:
 
-## Deploy on Vercel
+```
+npm install
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+4. Set up your environment variables in .env.local:
+
+```
+NEXT_PUBLIC_STRIPE_PUBLIC_KEY=put_your_stripe_public_key_here
+STRIPE_SECRET_KEY=shhh_your_stripe_secret_key
+PRINTIFY_API_KEY=secret_printify_api_key_shhh
+
+```
+
+5. Run the development server:
+
+```
+npm run dev
+
+```
+
+## Usage
+
+Provide instructions on how to use your shop, including how to add new products, process orders, and customize the layout.
+
+## Contributing
+
+Contributions are what make the open-source community such a fantastic place to learn, inspire, and create. Any contributions you make are greatly appreciated.
+
+## License
+
+Distributed under the MIT License. See LICENSE for more information.
+Contact
+
+Ross Duris - @ross_duris
+
+Project Link: https://github.com/duris/print-shop
