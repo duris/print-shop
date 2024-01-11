@@ -3,11 +3,11 @@
 Welcome to the Canvas & Poster Shop, the premier e-commerce solution for artists and photographers who want to share and monetize their art through high-quality prints. This platform leverages the robust features of Next.js, integrates with Stripe for secure payment processing, and connects with Printify for efficient, on-demand printing services.
 Features
 
-• Product Gallery: Showcase your art with a customizable gallery.
-• Stripe Integration: Process payments securely and reliably.
-• Printify Integration: Automate order printing and shipping with ease.
-• Responsive Design: Enjoy a seamless experience on any device.
-• Artist Dashboard: Manage products, orders, and payouts in one place.
+- Product Gallery: Showcase your art with a customizable gallery.
+- Stripe Integration: Process payments securely and reliably.
+- Printify Integration: Automate order printing and shipping with ease.
+- Responsive Design: Enjoy a seamless experience on any device.
+- Artist Dashboard: Manage products, orders, and payouts in one place.
 
 ## Getting Started
 
@@ -24,21 +24,18 @@ A Printify account
 
 ```
 git clone https://github.com/your-username/canvas-poster-shop.git
-
 ```
 
 2. Navigate to the project directory:
 
 ```
 cd canvas-poster-shop
-
 ```
 
 3. Install dependencies:
 
 ```
 npm install
-
 ```
 
 4. Set up your environment variables in .env.local:
@@ -47,14 +44,12 @@ npm install
 NEXT_PUBLIC_STRIPE_PUBLIC_KEY=put_your_stripe_public_key_here
 STRIPE_SECRET_KEY=shhh_your_stripe_secret_key
 PRINTIFY_API_KEY=secret_printify_api_key_shhh
-
 ```
 
 5. Run the development server:
 
 ```
 npm run dev
-
 ```
 
 ## Usage
